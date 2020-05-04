@@ -58,7 +58,7 @@ let customRandom = (alphabet, size, getRandom) => {
 
 let customAlphabet = (alphabet, size) => customRandom(alphabet, size, random)
 
-const did = customAlphabet('_', 3)()
+const did = customAlphabet('_13', 3)()
 console.log('did', did)
 
 let nanoid = (size = 21) => {
